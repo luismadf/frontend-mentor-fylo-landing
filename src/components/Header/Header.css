@@ -1,0 +1,39 @@
+header .screen__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 4.125rem;
+  margin-bottom: 6.5rem;
+}
+
+header img {
+  width: 10.375rem;
+}
+
+header ul {
+  display: flex;
+  gap: 1.5rem;
+}
+
+header ul a {
+  font-family: var(--font-raleway);
+  transition: var(--transition);
+}
+
+header ul a:hover {
+  color: var(--moderate-cyan);
+}
+
+@media (max-width: 425px) {
+  header .screen__wrapper {
+    padding-top: 2rem;
+  }
+
+  header img {
+    width: 5.125rem;
+  }
+
+  header ul a {
+    font-size: 0.75rem;
+  }
+}
