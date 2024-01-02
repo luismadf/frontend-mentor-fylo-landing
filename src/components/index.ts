@@ -1,4 +1,5 @@
-export { default as Header } from './Header/Header'
-export { default as Footer } from './Footer/Footer'
-export { default as Layout } from './Layout'
+export { default as Button } from './Button/Button'
 export { default as EmailInput } from './EmailInput/EmailInput'
+export { default as Footer } from './Footer/Footer'
+export { default as Header } from './Header/Header'
+export { default as Layout } from './Layout'

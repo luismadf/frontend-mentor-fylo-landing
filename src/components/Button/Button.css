@@ -1,0 +1,16 @@
+button {
+  padding: 0.8rem;
+  border: none;
+  border-radius: var(--border-radius);
+  background-color: var(--bright-blue);
+  color: var(--light-grayish-blue);
+  font-family: var(--font-raleway);
+  font-weight: bold;
+  box-shadow: var(--box-shadow);
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+button:hover {
+  background-color: var(--cta-button-active);
+}
