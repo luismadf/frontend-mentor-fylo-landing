@@ -1,0 +1,40 @@
+fieldset {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border: none;
+}
+
+fieldset.full-width {
+  width: 100%;
+}
+
+input {
+  height: 2.875rem;
+  padding: 0.8rem 1.25rem;
+  border: 1px solid var(--very-dark-blue);
+  border-radius: var(--border-radius);
+}
+
+input::placeholder {
+  color: var(--light-gray);
+  font-family: var(--open-sans);
+  font-size: 0.875rem;
+}
+
+.email-input__error-message {
+  display: none;
+  font-family: var(--open-sans);
+  font-size: 0.75rem;
+  color: red;
+  position: absolute;
+  top: 50px;
+}
+
+fieldset:invalid input {
+  border: 1px solid red;
+}
+
+fieldset:invalid .email-input__error-message {
+  display: inline-block;
+}
